@@ -3,8 +3,7 @@ import faker from 'faker';
 
 const CommentDetail = () => {
   return (
-    <div className="ui comments">
-      <h3 className="ui dividing header">Comments</h3>
+    <div>
       <div className="comment">
         <a className="avatar" href="/">
           <img alt="gambar" src={faker.image.avatar()} />
