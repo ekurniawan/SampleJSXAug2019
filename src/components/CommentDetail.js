@@ -10,7 +10,7 @@ const CommentDetail = () => {
         </a>
         <div className="content">
           <a className="author" href="/">
-            Matt
+            {faker.name.firstName()}
           </a>
           <div className="metadata">
             <span className="date">Today at 5:42PM</span>
